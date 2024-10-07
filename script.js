@@ -7,4 +7,4 @@
 const jmeno = prompt("Zadej jmeno a přijmeni")
 const vek = Number(prompt("Zadej vek"))
 
-document.body.innerHTML = "<p>" + jmeno + ", věk:" + vek + "</p>"
+document.body.innerHTML += "<p>" + jmeno + ", věk: " + vek + "</p>"
